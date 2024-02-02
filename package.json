@@ -1,5 +1,5 @@
 {
-  "name": "@bludot/ckeditor5-custom-build",
+  "name": "@princevelotio/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
@@ -50,5 +50,8 @@
   "bugs": {
     "url": "https://github.com/princevelotio/ckeditor5-build-classic/issues"
   },
-  "homepage": "https://github.com/princevelotio/ckeditor5-build-classic#readme"
+  "homepage": "https://github.com/princevelotio/ckeditor5-build-classic#readme",
+  "publishConfig": {
+    "@princevelotio:registry": "https://npm.pkg.github.com"
+  }
 }
