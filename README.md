@@ -64,17 +64,23 @@ Not yet, but it these integrations will be available at some point in the future
 
 If you get the below error
 
-````npm ERR! code E401
-npm ERR! 401 Unauthorized - GET https://npm.pkg.github.com/@princevelotio%2fckeditor5-custom-build - authentication token not provided```
+```
+npm ERR! code E401
+npm ERR! 401 Unauthorized - GET https://npm.pkg.github.com/@princevelotio%2fckeditor5-custom-build - authentication token not provided
+```
 
 Login to the GitHub account with your personal token
 
-```npm login --scope=@princevelotio --registry=https://npm.pkg.github.com```
+```
+npm login --scope=@princevelotio --registry=https://npm.pkg.github.com
+```
 
 Enter
-```Username:
+
+```
+Username:
 Password: PAT
-Email:```
+Email:
+```
 
 Now try to install the package again!
-````
